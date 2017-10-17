@@ -1,7 +1,7 @@
 class Calculator () {
    
   //Methods for whole numbers
-  def add(x:Int, y:Int): Int = {    //returns the sum of params
+  def add(x:Int, y:Int): Int = {    //returns the sum  of whole numbers 
     x+y
   }
 
@@ -33,7 +33,7 @@ class Calculator () {
     simplify(x._1*y._1 , x._2*y._2)
   }
 
-  // divide of rational numbers  
+  // divide the rational numbers  
   def div(x:(Int, Int), y:(Int, Int)):  (Int, Int) = {
     simplify(x._1 * y._2, x._2 * y._1)
   }
